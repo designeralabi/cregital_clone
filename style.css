@@ -115,6 +115,7 @@
     font-size: 1.2rem;
     line-height: 2.1rem;
     padding: 5px 10px 10px 8rem ;
+    max-width: 1000px;
 }
 
 .about-us a{
@@ -160,6 +161,7 @@
     font-size: 1.2rem;
     line-height: 2.1rem;
     padding: 5px 10px 10px 8rem ;
+    max-width: 1000px;
 }
 
 .footer a {
