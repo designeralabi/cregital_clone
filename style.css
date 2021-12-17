@@ -69,6 +69,7 @@
     justify-content: space-between;
     padding: 0 3rem;
     width: 100%;
+    margin: 8rem 0 12rem;
 }
 
 .project{
@@ -80,6 +81,41 @@
 
 .project img{
     width: 100%;
+}
+
+.project-2{
+    position: relative;
+    top: -35px;
+}
+
+.project-3{
+    position: relative;
+    top: -55px;
+}
+
+.project-4{
+    position: relative;
+    top: 55px;
+}
+
+.project-5{
+    position: relative;
+    top: -55px;
+}
+
+.project-5 img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.project-8{
+    position: relative;
+    top: -55px;
+}
+
+.project-8 img {
+    height: 400px;
+    object-fit: cover;
 }
 
 .project-tag{
@@ -102,6 +138,8 @@
 
 .about-us{
     padding: 0 3rem;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
 }
 
 .about-us h1{
@@ -202,9 +240,12 @@
     justify-content: space-between;
     font-weight: var(--fontExtraL);
     font-size: .8rem;
+    align-items: center; 
+}
+
+.footer-links span{
     color: #fff;
     opacity: 1;
-    align-items: center; 
 }
 
 .social-links{
@@ -212,8 +253,4 @@
     justify-content: space-around;
     align-items: center;
     width: 300px;
-}
-
-.social-links a{
-    text-decoration: none;
 }
