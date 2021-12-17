@@ -147,7 +147,7 @@
 .footer{
     background-color: #000;
     color: #fff;
-    padding: 6rem 6rem 12rem;
+    padding: 6rem 6rem;
 }
 
 .footer h1{
@@ -162,6 +162,7 @@
     line-height: 2.1rem;
     padding: 5px 10px 10px 8rem ;
     max-width: 1000px;
+    margin-bottom: 5rem;
 }
 
 .footer a {
@@ -194,4 +195,25 @@
 
 .footer span{
     opacity: .3;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    font-weight: var(--fontExtraL);
+    font-size: .8rem;
+    color: #fff;
+    opacity: 1;
+    align-items: center; 
+}
+
+.social-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+}
+
+.social-links a{
+    text-decoration: none;
 }
