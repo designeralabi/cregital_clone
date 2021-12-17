@@ -1,16 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
 
+:root{
+    --primaryFont: 'IBM Plex Sans', sans-serif ;
+    --fontThin: 100;
+    --fontExtraL: 200;
+    --fontLight: 300;
+    --fontRegular: 400;
+    --fontMedium: 500;
+    --fontSemiBold: 600;
+    --fontBold: 700
+}
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     border: none;
+    font-family: var(--primaryFont);
 }
 
 .main-wrapper{
     width: 90%;
-    margin: 30px auto;
+    margin: 40px auto;
 }
 
 .header{
@@ -19,7 +32,164 @@
     align-items: center;
 }
 
+.menu-wrapper span{
+    font-weight: var(--fontMedium);
+    font-size: .8rem;
+}
+
+
 #logo{
     width: 30px;
     height: auto;
+}
+
+.banner{
+    margin: 10% auto;
+    text-align: center;
+    padding: 70px 70px 0;
+}
+
+.banner h3{
+    font-size: 5rem;
+    font-weight: var(--fontMedium);
+   margin: 0 auto;
+    max-width: 900px;
+}
+
+.banner p{
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    margin-top: 2rem;
+    font-weight: var(--fontExtraL);
+}
+
+.projects-showcase{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 3rem;
+    width: 100%;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 3% 0;
+}
+
+.project img{
+    width: 100%;
+}
+
+.project-tag{
+    color: #000;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 10px 0 5px;
+}
+
+.project-tag h3{
+    margin: 8px 0;font-size: 1.5rem;
+    font-weight: var(--fontMedium);
+}
+
+.project-tag p{
+    margin: 5px 0;
+    font-size: .8rem;
+    font-weight: var(--fontLight);
+ }
+
+.about-us{
+    padding: 0 3rem;
+}
+
+.about-us h1{
+    font-weight: var(--fontMedium);
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-us p{
+    font-weight: var(--fontExtraL);
+    font-size: 1.2rem;
+    line-height: 2.1rem;
+    padding: 5px 10px 10px 8rem ;
+}
+
+.about-us a{
+    color: #000;
+    position: relative;
+}
+
+.about-us a::after{
+    content: " ";
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 0;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.6s ease-in;
+}
+
+.about-us p a:hover::after{
+    height: 15px;
+    width: 100%;
+}
+
+#about-us-team{
+   margin: 40px 0;
+}
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 6rem 6rem 12rem;
+}
+
+.footer h1{
+    font-weight: var(--fontMedium);
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer p{
+    font-weight: var(--fontExtraL);
+    font-size: 1.2rem;
+    line-height: 2.1rem;
+    padding: 5px 10px 10px 8rem ;
+}
+
+.footer a {
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.footer a::after{
+    content: " ";
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 0;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.6s ease-in;
+}
+
+.footer a:hover::after{
+    height: 15px;
+    width: 100%;
+}
+
+.footer a:hover{
+    border: 0;
+}
+
+.footer span{
+    opacity: .3;
 }
