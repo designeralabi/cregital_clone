@@ -5,3 +5,19 @@
     text-decoration: none;
     border: none;
 }
+
+.main-wrapper{
+    width: 90%;
+    margin: 30px auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    width: 30px;
+    height: auto;
+}
