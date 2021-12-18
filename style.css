@@ -325,3 +325,100 @@ body{
     align-items: center;
     width: 300px;
 }
+
+
+@media screen and (max-width: 500px) {
+
+    body{
+        overflow: hidden;
+    }
+
+    .banner{
+        padding: 10px;
+        margin-top: 5rem;
+    }
+    
+    .banner h3{
+        font-size: 3rem;
+    }
+
+    .projects-showcase{
+        flex-direction: row;
+        margin: 4rem 0 5rem;
+        padding: 0 1rem;
+    }
+
+    .project{
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .project-2, .project-3, .project-4, .project-5, .project-8{
+        top: 0;
+    }
+
+    .about-us{
+        padding: 0 1rem;
+        margin-top: 1rem;
+    }
+
+    .about-us h1{
+       font-size: 2.2rem;
+    }
+
+
+    .about-us p{
+        padding: 0;
+    }
+
+    .about-us p a{
+        border-bottom: 1px solid #000;
+    }
+
+    .footer{
+        padding: 6rem 3rem 3.5rem;
+    }
+
+    .footer h1{
+        font-size: 2.2rem;
+    }
+
+    .footer p{
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .footer-links{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-links span, .social-links{
+        margin-top: 30px;
+    }
+
+    .social-links{
+        justify-content: left;
+    }
+
+    .social-links a{
+        margin-right: 50px;
+        border-bottom: 0;
+    }
+
+    .menu-close p{
+        margin: 14rem 20px 0;
+        font-size: 2.2rem;
+        line-height: 3.5rem;
+    }
+
+    .menu-close a{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+     }
+     
+     .menu-close a:hover::after{
+         height: 20px;
+         width: 100%;
+     }
+}
+
