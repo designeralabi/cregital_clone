@@ -35,15 +35,23 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    z-index: 10;
+}
+
+.header-text{
+    color: #fff;    
 }
 
 .menu-wrapper{
     width: 70px;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
+    z-index: 10;
 }
 
+.menu-icon{
+    filter: invert();
+}
 
 .menu-wrapper span{
     font-weight: var(--fontMedium);
@@ -61,6 +69,11 @@ body{
     color: #fff;
     padding: 40px;
     text-align: center;
+    display: none;
+}
+
+.close{
+    display: block;
 }
 
 .menu-close p{
@@ -94,6 +107,11 @@ body{
 #logo{
     width: 30px;
     height: auto;
+    z-index: 10;
+}
+
+.logo-color{
+    filter: invert();
 }
 
 .banner{
